@@ -1,1 +1,1 @@
-Based on a dictionary of all the MLB mascots and their varying levels of ferocity, predict the win.
+Comparing a red sock to the ferocity of the other team's mascot, predict whether the Red Sox will win.
