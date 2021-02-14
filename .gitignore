@@ -1,0 +1,3 @@
+# pyc are precompiled python imports. They're meant to speed startup of the scripts.
+# Maybe I'll undo this rule later when I add a script runner.
+*.pyc
