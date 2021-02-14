@@ -1,3 +1,6 @@
-# pyc are precompiled python imports. They're meant to speed startup of the scripts.
-# Maybe I'll undo this rule later when I add a script runner.
+# pyc are precompiled python2 imports. They're meant to speed startup of the scripts.
 *.pyc
+
+# pycache contains precompiled python3 code. It's the python3 equivalent of python2's *.pyc
+__pycache__/
+
