@@ -1,4 +1,4 @@
-from teams import *
+from utils.teams import *
 
 ferocity_index = {
     ATLANTA_BRAVES: 1,
