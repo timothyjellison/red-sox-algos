@@ -1,30 +1,62 @@
-ATLANTA_BRAVES = 'atlanta_braves'
-MIAMI_MARLINS = 'miami_marlins'
-PHILADELPHIA_PHILLIES = 'philadelphia_phillies'
-CHICAGO_CUBS = 'chicago_cubs'
-PITTSBURGH_PIRATES = 'pittsburgh_pirates'
-ARIZONA_DIAMONDBACKS = 'arizona_diamondbacks'
-LOS_ANGELES_ANGELS = 'los_angeles_angels'
-DETROIT_TIGERS = 'detroit_tigers'
-TAMPA_BAY_RAYS = 'tampa_bay_rays'
-CLEVELAND_GUARDIANS = 'cleveland_guardians'
-SAN_FRANCISCO_GIANTS = 'san_francisco_giants'
-NEW_YORK_YANKEES = 'new_york_yankees'
-COLORADO_ROCKIES = 'colorado_rockies'
-TEXAS_RANGERS = 'texas_rangers'
-BOSTON_RED_SOX = 'boston_red_sox'
-CINCINNATI_REDS = 'cincinnati_reds'
-ST_LOUIS_CARDINALS = 'st_louis_cardinals'
-LOS_ANGELES_DODGERS = 'los_angeles_dodgers'
-MILWAUKEE_BREWERS = 'milwaukee_brewers'
-BALTIMORE_ORIOLES = 'baltimore_orioles'
-NEW_YORK_METS = 'new_york_mets'
-WASHINGTON_NATIONALS = 'washington_nationals'
-KANSAS_CITY_ROYALS = 'kansas_city_royals'
-MINNESOTA_TWINS = 'minnesota_twins'
-HOUSTON_ASTROS = 'houston_astros'
-OAKLAND_ATHLETICS = 'oakland_athletics'
-SEATTLE_MARINERS = 'seattle_mariners'
-CHICAGO_WHITE_SOX = 'chicago_white_sox'
-SAN_DIEGO_PADRES = 'san_diego_padres'
-TORONTO_BLUE_JAYS = 'toronto_blue_jays'
+ATLANTA_BRAVES = "Atlanta Braves"
+MIAMI_MARLINS = "Miami Marlins"
+PHILADELPHIA_PHILLIES = "Philadelphia Phillies"
+CHICAGO_CUBS = "Chicago Cubs"
+PITTSBURGH_PIRATES = "Pittsburgh Pirates"
+ARIZONA_DIAMONDBACKS = "Arizona Diamondbacks"
+LOS_ANGELES_ANGELS = "Los Angeles Angels"
+DETROIT_TIGERS = "Detroit Tigers"
+TAMPA_BAY_RAYS = "Tampa Bay Rays"
+CLEVELAND_GUARDIANS = "Cleveland Guardians"
+SAN_FRANCISCO_GIANTS = "San Francisco Giants"
+NEW_YORK_YANKEES = "New York Yankees"
+COLORADO_ROCKIES = "Colorado Rockies"
+TEXAS_RANGERS = "Texas Rangers"
+BOSTON_RED_SOX = "Boston Red Sox"
+CINCINNATI_REDS = "Cincinnati Reds"
+ST_LOUIS_CARDINALS = "St Louis Cardinals"
+LOS_ANGELES_DODGERS = "Los Angeles Dodgers"
+MILWAUKEE_BREWERS = "Milwaukee Brewers"
+BALTIMORE_ORIOLES = "Baltimore Orioles"
+NEW_YORK_METS = "New York Mets"
+WASHINGTON_NATIONALS = "Washington Nationals"
+KANSAS_CITY_ROYALS = "Kansas City Royals"
+MINNESOTA_TWINS = "Minnesota Twins"
+HOUSTON_ASTROS = "Houston Astros"
+OAKLAND_ATHLETICS = "Oakland Athletics"
+SEATTLE_MARINERS = "Seattle Mariners"
+CHICAGO_WHITE_SOX = "Chicago White Sox"
+SAN_DIEGO_PADRES = "San Diego Padres"
+TORONTO_BLUE_JAYS = "Toronto Blue Jays"
+
+allRivalTeams = [
+    ATLANTA_BRAVES,
+    MIAMI_MARLINS,
+    PHILADELPHIA_PHILLIES,
+    CHICAGO_CUBS,
+    PITTSBURGH_PIRATES,
+    ARIZONA_DIAMONDBACKS,
+    LOS_ANGELES_ANGELS,
+    DETROIT_TIGERS,
+    TAMPA_BAY_RAYS,
+    CLEVELAND_GUARDIANS,
+    SAN_FRANCISCO_GIANTS,
+    NEW_YORK_YANKEES,
+    COLORADO_ROCKIES,
+    TEXAS_RANGERS,
+    CINCINNATI_REDS,
+    ST_LOUIS_CARDINALS,
+    LOS_ANGELES_DODGERS,
+    MILWAUKEE_BREWERS,
+    BALTIMORE_ORIOLES,
+    NEW_YORK_METS,
+    WASHINGTON_NATIONALS,
+    KANSAS_CITY_ROYALS,
+    MINNESOTA_TWINS,
+    HOUSTON_ASTROS,
+    OAKLAND_ATHLETICS,
+    SEATTLE_MARINERS,
+    CHICAGO_WHITE_SOX,
+    SAN_DIEGO_PADRES,
+    TORONTO_BLUE_JAYS,
+]
