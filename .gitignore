@@ -4,3 +4,5 @@
 # pycache contains precompiled python3 code. It's the python3 equivalent of python2's *.pyc
 __pycache__/
 
+# virtual environment files
+.venv

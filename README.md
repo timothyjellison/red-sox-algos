@@ -5,6 +5,12 @@ Dumb algorithms to predict Red Sox wins
 - [Coin Toss](https://github.com/timdotbiz/red-sox-algos/tree/main/coin-toss)
 - [Mascot Ferocity](https://github.com/timdotbiz/red-sox-algos/tree/main/mascot-ferocity)
 
+Run all algorithms from the root directory:
+
+```sh
+python taskrunner.py
+```
+
 # Coin Toss
 
 There's a 50/50 chance the Red Sox will win any given game.
@@ -28,7 +34,3 @@ Comparing a red sock to the ferocity of the other team's mascot, predict whether
 ## Cons
 
 - 'mascot ferocity' is an entirely subjective value that has no bearing on the performance of a team
-
-# TO DO:
-
-- build a task runner than 1) runs each of the algorithms on a game day, 2) compares the algorithms' preditions to the actual results and records their success rate

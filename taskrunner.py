@@ -1,5 +1,13 @@
 from algos import cointoss, mascotferocity
 from utils.teams import *
 
-print(cointoss.main())
-print(mascotferocity.main(ATLANTA_BRAVES))
+
+def winOrLoss(bool):
+    if bool:
+        return "Win"
+    else:
+        return "Loss"
+
+
+print("Cointoss:", winOrLoss(cointoss.main()))
+print("Mascot Ferocity:", winOrLoss(mascotferocity.main(ATLANTA_BRAVES)))
