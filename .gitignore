@@ -6,3 +6,6 @@ __pycache__/
 
 # virtual environment files
 .venv
+
+# Visual Studio Code workspace settings
+.vscode
