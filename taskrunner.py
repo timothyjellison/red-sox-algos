@@ -1,8 +1,15 @@
 import random
 import sqlite3
+import statsapi
 from algos import cointoss, mascotferocity
 from utils.teams import *
 from sqlite3 import Error
+
+red_sox_id = statsapi.lookup_team(lookup_value="boston")[0]["id"]
+
+
+def getNextGame():
+    return statsapi.next_game(teamId=red_sox_id)
 
 
 def winOrLoss(bool):
@@ -62,10 +69,14 @@ if __name__ == "__main__":
             mascotferocity bool
         ); """,
     )
-    opponent = random.choice(allRivalTeams)
-    print("The Red Sox will play " + opponent)
-    cointoss_result = cointoss.main()
-    print("Cointoss predicts: " + winOrLoss(cointoss_result))
-    mascotferocity_result = mascotferocity.main(opponent)
-    print("Mascot Ferocity predicts: " + winOrLoss(mascotferocity_result))
-    record_run(conn, [opponent, cointoss_result, mascotferocity_result])
+    opponent = getNextGame()
+
+    if opponent == None:
+        print("The Red Sox don't have any scheduled upcoming games :-(")
+    else:
+        print("The Red Sox will play " + opponent)
+        cointoss_result = cointoss.main()
+        print("Cointoss predicts: " + winOrLoss(cointoss_result))
+        mascotferocity_result = mascotferocity.main(opponent)
+        print("Mascot Ferocity predicts: " + winOrLoss(mascotferocity_result))
+        record_run(conn, [opponent, cointoss_result, mascotferocity_result])
